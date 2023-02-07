@@ -1,0 +1,289 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --red: #d20000;
+  --blush: #f0abab;
+  --white-two: #d9d9d9;
+  --white-two-62: rgba(217, 217, 217, 0.62);
+  --white-two-30: rgba(217, 217, 217, 0.3);
+  --warm-grey: #949494;
+  --greyish-brown: #414141;
+  --slate-grey: #555a6e;
+  --aqua-blue: #00d2d2;
+  --carnation: #ff6e91;
+  --dark-coral: #ce5656;
+}
+
+body {
+  background: var(--black);
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-container {
+
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.logo {
+
+  width: 330px;
+  height: 330px;
+  position: absolute;
+  margin-bottom: 10px;
+}
+
+.access-gamers {
+
+  width: 350px;
+  height: 350px;
+  border-radius: 40px;
+  margin-top: 350px;
+  position: relative;
+  display: inline;
+
+}
+
+.access-gamers:hover {
+
+  transform: scale(1.3);
+
+}
+
+.access-podium {
+
+  width: 350px;
+  height: 350px;
+  border-radius: 40px;
+  position: relative;
+  margin-top: 350px;
+  margin-left: 20px;
+
+}
+
+.access-podium:hover {
+
+  transform: scale(1.3);
+
+}
+
+.access-controller {
+
+  width: 350px;
+  height: 350px;
+  border-radius: 40px;
+  position: relative;
+  margin-top: 350px;
+  margin-left: 20px;
+
+}
+
+.access-controller:hover {
+
+  transform: scale(1.3);
+
+}
+
+.footer {
+  position: relative;
+  color: var(--white);
+  text-align: center;
+  font-size: larger;
+}
+
+.seeker__input {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 20px;
+  border: 2px solid var(--white-two);
+  border-radius: 15px;
+  color: var(--white-two);
+  font-size: 14px;
+  height: 40px;
+  width: 400px;
+  padding: 0px 20px;
+  background-color: var(--greyish-brown);
+  outline: none;
+}
+
+.gamers-list__detail {
+  position: relative;
+  text-align: left;
+  width: 851px;
+  height: 500px;
+  margin-top: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.gamers-list__detail__playerTitle {
+  color: var(--white);
+}
+
+.gamers-list__detail__data {
+  color: var(--white);
+  position: relative;
+  vertical-align: super;
+}
+
+.gamers-list__detail__response {
+  color: var(--white);
+  position: relative;
+}
+
+.gamers-list__detail__imgr {
+  width: 50px;
+  height: 50px;
+}
+
+
+.gamer-picture {
+  height: 263px;
+  width: 286px;
+  margin-right: 20px;
+  margin-bottom: 150px;
+  position: relative;
+  border: solid var(--white);
+  border-radius: 10px;
+}
+
+.console-picture {
+  width: 60px;
+  height: 36px;
+}
+
+.Line-1 {
+  width: 486px;
+  height: 1px;
+  margin: 10px 122px 0 82px;
+  background-color: var(--white);
+}
+
+.leaderboard--holder {
+  position: absolute;
+  color: var(--white);
+  width: 616px;
+  height: 85px;
+  margin: 163px 47px 43px 412px;
+  padding: 21px 3px 20px 6px;
+  border-radius: 20px;
+  background-color: var(--greyish-brown);
+}
+
+.img_holder_gamers {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: 350px 103px 43px 467px;
+  border-radius: 40px;
+  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.img_holder_gamers img{
+  width: 150px;
+  height: 150px;
+}
+
+.img_holder_games{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin-top: 350px;
+  margin-left: 832px;
+  border-radius: 40px;
+  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.img_holder_games img{
+
+  width: 150px;
+  height: 150px;
+
+}
+
+.img_holder_goldmedal {
+  position: absolute;
+  width: 87px;
+  height: 87px;
+  margin: 484px 87px 425px 1075px;
+}
+
+.img_holder_goldmedal img{
+
+  width: 87px;
+  height: 87px;
+}
+
+.img_holder_silvermedal {
+  position: absolute;
+  width: 87px;
+  height: 87px;
+  margin: 571px 278px 338px 1075px;
+}
+
+.img_holder_silvermedal img{
+
+  width: 87px;
+  height: 87px;
+}
+
+.img_holder_bronzemedal {
+  position: absolute;
+  width: 87px;
+  height: 87px;
+  margin: 657px 278px 252px 1075px;
+}
+
+.img_holder_bronzemedal img{
+
+  width: 87px;
+  height: 87px;
+}
+
+.img-holder__consoles{
+
+  position: absolute;
+  margin: 246px 442px 600px 443px;
+  text-align: center;
+}
+
+.seeker-game__input {
+  position: relative;
+  margin-left: 800px;
+  margin-top: 20px;
+  border: 2px solid var(--white-two);
+  border-radius: 15px;
+  color: var(--white-two);
+  font-size: 14px;
+  height: 40px;
+  width: 400px;
+  padding: 0px 20px;
+  background-color: var(--greyish-brown);
+  outline: none;
+}
+
+.frame-holder__title {
+
+  color: var(--white);
+  text-align: center;
+  position: absolute;
+  width: 616px;
+  height: 85px;
+  margin: 433px 412px 478px 413px;
+  border-radius: 20px;
+  background-color: var(--greyish-brown);
+}
+
+.button-holder__save{
+  position: absolute;
+  margin: 716px 826px 223px 403px;
+}
+
+.button-holder__clear{
+  position: absolute;
+  margin: 716px 382px 223px 847px;
+}
